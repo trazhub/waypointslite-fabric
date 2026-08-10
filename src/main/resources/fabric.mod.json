@@ -1,0 +1,20 @@
+{
+    "schemaVersion": 1,
+    "id": "waypointslite",
+    "version": "${version}",
+    "name": "WaypointsLite",
+    "description": "Server-side waypoint manager — /wp set/go/list/delete, waypoints.yml compatible with Paper plugin",
+    "authors": ["garvverma"],
+    "license": "MIT",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.garvverma.waypointslite.WaypointsLite"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=0.15.0",
+        "fabric-api": "*",
+        "minecraft": ">=1.21.4"
+    }
+}
